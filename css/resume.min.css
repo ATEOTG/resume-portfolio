@@ -118,6 +118,19 @@ section.resume-section .resume-item .resume-date {
     padding-bottom: 3rem !important;
   }
 }
+
+@media (max-width: 1334px) {
+  .project-list {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .project-list div div {
+    justify-content: center;
+  }
+}
+
 .bg-primary {
   background-color: #bd5d38 !important;
 }
@@ -134,4 +147,14 @@ a:hover {
 }
 .skill-text {
   font-size: 15px !important;
+}
+.w-235 {
+  width: 235px;
+}
+
+.h-136 {
+  height: 136px;
+}
+.gap-8 {
+  gap: 8rem;
 }
